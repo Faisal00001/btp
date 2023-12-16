@@ -1,6 +1,6 @@
 .swiper {
     width: 100%;
-    height: 100%;
+    border-radius: 4px;
 }
 
 .swiper-slide {
@@ -10,11 +10,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
+
 }
 
 .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid #3490dc;
 }
